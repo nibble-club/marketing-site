@@ -1,21 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Nibble</title>
-    <link rel="stylesheet" href="styles/styles.css"/>
-    <!-- Add website icon in tab -->
-    <link rel="icon" href="images/app-logo.png" type="image/gif">
-    <!-- Add social media icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My custom Bulma website</title>
+    <link rel="stylesheet" href="css/mystyles.css">
   </head>
-
   <body>
-      <div class="navBar">
-          <img src="images/nibble-logo.svg" width="100px"></img>
+     <h1 class="title">
+        Bulma
+      </h1>
 
+      <p class="subtitle">
+        Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
+      </p>
+
+      <div class="field">
+        <div class="control">
+          <input class="input" type="text" placeholder="Input">
+        </div>
       </div>
 
+      <div class="field">
+        <p class="control">
+          <span class="select">
+            <select>
+              <option>Select dropdown</option>
+            </select>
+          </span>
+        </p>
+      </div>
 
-
-
+      <div class="buttons">
+        <a class="button is-primary">Primary</a>
+        <a class="button is-link">Link</a>
+      </div>
   </body>
+</html>
