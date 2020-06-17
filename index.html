@@ -4,37 +4,99 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My custom Bulma website</title>
+    <title>Nibble</title>
+    <link rel="icon" href="images/app-logo.png" type="image/gif">
     <link rel="stylesheet" href="css/mystyles.css">
   </head>
   <body>
-     <h1 class="title">
-        Bulma
-      </h1>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="images/nibble-logo.svg" width="112" height="28">
+        </a>
 
-      <p class="subtitle">
-        Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-      </p>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-      <div class="field">
-        <div class="control">
-          <input class="input" type="text" placeholder="Input">
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="index.html">
+            Home
+          </a>
+
+          <a class="navbar-item">
+            About
+          </a>
+
+          <a class="navbar-item">
+            Contact
+          </a>
+
+          <!-- <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More
+            </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Jobs
+              </a>
+              <a class="navbar-item">
+                Contact
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div> -->
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-primary">
+                <strong>Sign up</strong>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+    </nav>
 
-      <div class="field">
-        <p class="control">
-          <span class="select">
-            <select>
-              <option>Select dropdown</option>
-            </select>
-          </span>
-        </p>
-      </div>
 
-      <div class="buttons">
-        <a class="button is-primary">Primary</a>
-        <a class="button is-link">Link</a>
+    <!-- HOME PAGE HERO -->
+    <section class="hero is-fullheight-with-navbar">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">
+            <!-- Welcome to the joy </br>
+            of better eating. -->
+
+            Welcome to the future of eating.
+
+            <!-- Experience the joy of better eating. -->
+
+            <!-- The same great food, cheaper. -->
+
+          </h1>
+          <h2 class="subtitle is-4">
+            Nibble connects people with inexpensive meals that are </br>
+            too fresh to be kept overnight by restaurants.
+          </h2>
+          <div class="buttons">
+            <a class="button is-primary">Join the Waitlist</a>
+            <a class="button is-link">Learn More</a>
+          </div>
+        </div>
       </div>
+    </section>
+
+
+
   </body>
 </html>
